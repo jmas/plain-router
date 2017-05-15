@@ -42,7 +42,7 @@ export default class Router {
         };
     }
 
-    uriFor (routeName, params={}) {
+    uriFor (routeName, params={}, withHash=false) {
         const routes = this._routes;
         const routePattern = routes[routeName];
         if (!routePattern) {
@@ -60,7 +60,7 @@ export default class Router {
             }
             uri = uri.replace(paramsHolders[i], params[holderName]);
         }
-        return uri;
+        return (withHash ? '#': '') + uri;
     }
 }
 

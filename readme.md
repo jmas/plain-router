@@ -21,8 +21,8 @@ onHashChange(router, result => {
 
 When you generate a link:
 ```js
-document.getElementById('link1').href = '#' + router.uriFor('userView', { userId: 1 });
-document.getElementById('link2').href = '#' + router.uriFor('authSignOut');
+document.getElementById('link1').href = router.uriFor('userView', { userId: 1 }, true);
+document.getElementById('link2').href = router.uriFor('authSignOut', {}, true);
 ```
 
 ## Methods of `Router` class
@@ -60,12 +60,13 @@ const uri2 = '/user/1';
 const uri3 = '#/user/1';
 ```
 
-### `uriFor(routeName, params={})`
+### `uriFor(routeName, params={}, withHash=false)`
 
 Generate URI for specific route by `routeName` and substitute a params instead route pattern placeholders.
 
 * `routeName` is a route name (key from `routes` object that was passed to `Router` constructor)
 * `params` is object, key is a name of route pattern placeholder
+* `withHash` is enable hash char as prefix for result URI
 
 ```
 const uri0 = router.uriFor('home');
