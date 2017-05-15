@@ -80,7 +80,9 @@ const uri1 = router.uriFor('authSignIn');
 const uri2 = router.uriFor('userView', { userId: 1 });
 ```
 
-## `onHashChange(router, handler, dispatchImmediately=true)` helper
+## Helpers
+
+### `onHashChange(router, handler, dispatchImmediately=true)` helper
 
 You can use this function to add `hashchange` event handler and pass result of
 executing `router.dispatch()` to `handler`.
