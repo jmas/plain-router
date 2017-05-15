@@ -1,6 +1,6 @@
 {
   "name": "plain-router",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Yet another router implementation that very basic.",
   "main": "build/dist/plain-router.min.js",
   "author": "Alex Maslakov <jmas.ukraine@gmail.com>",

@@ -30,7 +30,7 @@ document.getElementById('link2').href = router.uriFor('authSignOut', {}, true);
 
 ## Methods of `Router` class
  
-### `onstructor(routes)`
+### `constructor(routes)`
 
 * `routes` is map of route name and route pattern:
 ```js
