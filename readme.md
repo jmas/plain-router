@@ -21,7 +21,7 @@ onHashChange(router, result => {
 
 When you generate a link:
 ```js
-document.getElementById('link1').href = '#' + router.uriFor('userView', { userId: 123433, id: 3243 });
+document.getElementById('link1').href = '#' + router.uriFor('userView', { userId: 1 });
 document.getElementById('link2').href = '#' + router.uriFor('authSignOut');
 ```
 
