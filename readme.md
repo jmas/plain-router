@@ -2,6 +2,8 @@
 
 Yet another router implementation that very basic.
 
+[Demo](https://jsfiddle.net/jmas/8d0vn183/6/)
+
 ## How to use
 
 ```js
@@ -17,7 +19,6 @@ onHashChange(router, result => {
     console.log(result);
 });
 ```
-
 
 Somewhere in templates/views:
 ```twig
