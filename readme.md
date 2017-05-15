@@ -64,7 +64,7 @@ const uri3 = '#/user/1';
 
 ### `uriFor(routeName, params={}, withHash=false)`
 
-Generate URI for specific route by `routeName` and substitute a params instead route pattern placeholders.
+Generate URI for specific route by `routeName` and substitute a params instead params placeholders.
 
 * `routeName` is a route name (key from `routes` object that was passed to `Router` constructor)
 * `params` is object, key is a name of route pattern placeholder
