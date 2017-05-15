@@ -14,7 +14,7 @@ const router = new Router({
     userView: '/user/:userId'
 });
 onHashChange(router, result => {
-	console.log(result);
+    console.log(result);
 });
 ```
 
