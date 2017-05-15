@@ -75,7 +75,7 @@ const uri0 = router.uriFor('home');
 const uri1 = router.uriFor('authSignIn');
 
 // route pattern: /user/:userId
-// placeholder :userId
+// param placeholder :userId
 const uri2 = router.uriFor('userView', { userId: 1 });
 ```
 
