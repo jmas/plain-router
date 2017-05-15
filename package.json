@@ -1,0 +1,23 @@
+{
+  "name": "plain-router",
+  "version": "0.1.0",
+  "description": "Yet another router implementation that very basic.",
+  "main": "build/dist/plain-router.min.js",
+  "author": "Alex Maslakov <jmas.ukraine@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmas/plain-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmas/plain-router/issues"
+  },
+  "homepage": "https://github.com/jmas/plain-router#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^2.5.1"
+  }
+}
