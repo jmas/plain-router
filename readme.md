@@ -19,9 +19,11 @@ onHashChange(router, result => {
 ```
 
 
-When you generate a link:
+Somewhere in templates/views:
+```twig
+<a href="{{ router.uriFor('userView', { userId: 1 }, true) }}">View User #1</a>
+```
 ```js
-document.getElementById('link1').href = router.uriFor('userView', { userId: 1 }, true);
 document.getElementById('link2').href = router.uriFor('authSignOut', {}, true);
 ```
 
@@ -68,7 +70,7 @@ Generate URI for specific route by `routeName` and substitute a params instead r
 * `params` is object, key is a name of route pattern placeholder
 * `withHash` is enable hash char as prefix for result URI
 
-```
+```js
 const uri0 = router.uriFor('home');
 const uri1 = router.uriFor('authSignIn');
 
