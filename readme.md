@@ -7,7 +7,7 @@ Yet another router implementation that very basic.
 ## How to use
 
 ```js
-import Router, { onHashChange } from 'plain-router';
+import { Router, onHashChange } from 'plain-router';
 
 const router = new Router({
     home: '/',

@@ -1,4 +1,4 @@
-export default class Router {
+export class Router {
     /**
      * @param {Object} routes - `routes` is map of route name and route pattern
      */

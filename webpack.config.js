@@ -34,7 +34,7 @@ const baseConfig = {
     plugins: [],
 };
 
-let config;
+var config;
 
 if (process.env.NODE_ENV === 'production') {
     config = Object.assign({}, baseConfig, {
